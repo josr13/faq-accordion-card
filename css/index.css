@@ -62,6 +62,9 @@ body main .container .faq__body .q {
 body main .container .faq__body .q svg {
   color: hsl(14, 88%, 65%);
 }
+body main .container .faq__body .q:hover {
+  color: hsl(14, 88%, 65%);
+}
 body main .container .faq__body .a {
   display: none;
   color: hsl(240, 6%, 50%);
