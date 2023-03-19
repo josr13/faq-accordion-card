@@ -20,7 +20,7 @@ This is my solution to the [FAQ accordion card challenge on Frontend Mentor](htt
 ### Links
 
 - Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub Pages](https://josr13.github.io/)
+- Live Site URL: [GitHub Pages](https://josr13.github.io/faq-accordion-card/)
 
 ## My process
 
