@@ -3,6 +3,7 @@
   color: hsl(238, 29%, 16%);
   font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +18,7 @@ body main .container {
   height: 100%;
   width: 28em;
   border-radius: 20px;
-  margin: 15em auto;
+  margin: 15em auto 8em;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -36,12 +37,30 @@ body main .container .hero__bg {
 body main .container .faq {
   display: flex;
   flex-direction: column;
+  margin: 2em;
 }
 body main .container .faq__title {
   align-self: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: hsl(238, 29%, 16%);
+}
+body main .container .faq__body {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+body main .container .faq__body .q {
+  font-size: 1.15rem;
+  color: hsl(237, 12%, 33%);
 }
 body main .container .faq__body .a {
-  display: none;
+  color: hsl(240, 6%, 50%);
+}
+body main .container .faq__body hr.solid {
+  height: 1px;
+  background-color: hsl(240, 5%, 91%);
+  border: 0;
 }
 body footer.attribution {
   display: none;
