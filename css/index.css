@@ -1,0 +1,48 @@
+:root {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  color: hsl(238, 29%, 16%);
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body main {
+  margin: 0;
+  padding: 0;
+}
+body main .container {
+  background: white;
+  margin-top: 10em;
+  height: 100%;
+  width: 28em;
+  border-radius: 20px;
+  margin: 15em auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+body main .container .hero {
+  width: 80%;
+  align-self: center;
+}
+body main .container .hero__img {
+  margin-top: -10em;
+}
+body main .container .hero__bg {
+  margin: -7em auto 0;
+  width: 100%;
+}
+body main .container .faq {
+  display: flex;
+  flex-direction: column;
+}
+body main .container .faq__title {
+  align-self: center;
+}
+body main .container .faq__body .a {
+  display: none;
+}
+body footer.attribution {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
