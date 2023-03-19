@@ -27,12 +27,18 @@ body main .container .hero {
   width: 80%;
   align-self: center;
 }
-body main .container .hero__img {
+body main .container .hero__img-mobile {
   margin-top: -10em;
 }
-body main .container .hero__bg {
+body main .container .hero__img-desktop {
+  display: none;
+}
+body main .container .hero__bg-mobile {
   margin: -7em auto 0;
   width: 100%;
+}
+body main .container .hero__bg-desktop {
+  display: none;
 }
 body main .container .faq {
   display: flex;
@@ -85,4 +91,75 @@ body main .container .faq__body .show {
 }
 body footer.attribution {
   display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  :root {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  body main .container {
+    height: 67vh;
+    width: 65vw;
+    border-radius: 25px;
+    margin: 10.5em 0 0 22em;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  body main .container .hero {
+    width: 80%;
+    align-self: center;
+  }
+  body main .container .hero__img-mobile {
+    display: none;
+  }
+  body main .container .hero__img-desktop {
+    display: block;
+    margin-left: -7em;
+    -o-object-fit: contain;
+       object-fit: contain;
+    overflow: hidden;
+  }
+  body main .container .hero__bg-mobile {
+    display: none;
+  }
+  body main .container .hero__bg-desktop {
+    display: none;
+    margin: -47em -44em;
+    height: 100%;
+  }
+  body main .container .faq {
+    margin: 0 8em;
+    width: 50%;
+  }
+  body main .container .faq__title {
+    align-self: flex-start;
+  }
+  body main .container .faq__body .q {
+    font-size: 1.2rem;
+    width: 26em;
+  }
+  body main .container .faq__body .q svg {
+    margin-right: 1em;
+  }
+  body main .container .faq__body .a {
+    display: none;
+    color: hsl(240, 6%, 50%);
+    margin-right: 3em;
+  }
+  body main .container .faq__body .active {
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+  }
+  body main .container .faq__body .show {
+    display: block;
+  }
+  body footer.attribution {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
 }/*# sourceMappingURL=index.css.map */
