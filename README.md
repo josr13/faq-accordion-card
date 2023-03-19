@@ -19,7 +19,7 @@ This is my solution to the [FAQ accordion card challenge on Frontend Mentor](htt
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-using-flexbox-sass-and-bem-9cvalXhmgO)
 - Live Site URL: [GitHub Pages](https://josr13.github.io/faq-accordion-card/)
 
 ## My process
