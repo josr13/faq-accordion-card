@@ -57,6 +57,7 @@ body main .container .faq__body .q {
   justify-content: space-between;
   align-items: flex-end;
   font-weight: 400;
+  cursor: pointer;
 }
 body main .container .faq__body .q svg {
   color: hsl(14, 88%, 65%);
@@ -71,6 +72,13 @@ body main .container .faq__body hr.solid {
   background-color: hsl(240, 5%, 91%);
   border: 0;
   margin: 1.5em 0;
+}
+body main .container .faq__body .active {
+  font-weight: 700;
+  color: hsl(238, 29%, 16%);
+}
+body main .container .faq__body .show {
+  display: block;
 }
 body footer.attribution {
   display: none;
