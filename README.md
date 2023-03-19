@@ -33,6 +33,7 @@ This is my solution to the [FAQ accordion card challenge on Frontend Mentor](htt
 - Sass partial files
 - Mobile-first workflow
 - BEM methodology
+- Font Awesome
 
 ## Author
 
