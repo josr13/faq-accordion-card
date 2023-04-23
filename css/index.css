@@ -162,4 +162,29 @@ body footer.attribution {
     position: absolute;
     bottom: 0;
   }
+}
+@media only screen and (min-width: 1920px) {
+  :root {
+    font-size: 16px;
+  }
+  body main .container {
+    width: 60vw;
+    margin: 11em 0 0 23em;
+  }
+  body main .container .hero {
+    width: 100%;
+  }
+  body main .container .hero__img-desktop {
+    width: 110%;
+    margin-left: -7em;
+  }
+  body main .container .faq {
+    margin: 0 7em;
+  }
+  body main .container .faq__body .q {
+    font-size: 0.9rem;
+  }
+  body main .container .faq__body .a {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=index.css.map */
